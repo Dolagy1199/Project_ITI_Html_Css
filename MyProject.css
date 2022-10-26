@@ -1,0 +1,651 @@
+* {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: 003580;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.booking {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 200px;
+    padding-top: 200px;
+    display: inline;
+}
+
+
+.EGP {
+    margin-left: 500px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 30px;
+    
+    
+}
+
+.imghelp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.property {
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.Register {
+    background-color: white;
+    border-radius: 2px;
+    color: 003580;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.Sign {
+    background-color: white;
+    border-radius: 2px;
+    color: 003580;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.unorderlist1 {
+    direction: none;
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 160px;
+    padding-right: 50px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+
+}
+.unorderlistitem2 {
+    display: inline;
+    margin-right: 70px;
+    padding: 15px;
+
+}
+.unorderlistitem2:hover{
+    color: black;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #e3eefe;
+    cursor: pointer;
+}
+.Regions {
+    display: inline;
+    margin-right: 70px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: 003580;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 180px;
+
+}
+
+.findstay {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 200px;
+    display: inline;
+}
+
+.findstay2 {
+    color: white;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.search {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-left: 200px;
+    display: flex;
+    font-size: 20px;
+   
+}
+
+.wheregoing {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border: 5px solid #febb02;
+    border-right: 0px;
+   
+
+}
+.Amsterdam{
+    padding-top: 5px;
+    display: inline;
+}
+
+
+
+.wheregoing1 {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border: 5px solid #febb02;
+    border-right: 0px;
+
+}
+
+.wheregoing2 {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border: 5px solid #febb02;
+    border-right: 0px;
+
+
+}
+
+.wheregoing3 {
+    background-color: #1352aa;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 5px solid #febb02;
+
+}
+.divspan2{
+    color: grey;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.divspan {
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.check {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.check2 {
+    border: 2px solid rgba(168, 167, 167, 0.422);
+    margin-left: 200px;
+    border-radius: 6px;
+    padding: 7px;
+    width: 76%;
+    margin-top: 30px;
+}
+
+.offers {
+    margin-left: 200px;
+}
+
+.img2 {
+    width: 90%;
+    height: 220px;
+    border-radius: 6px;
+    background-image: url(images/1.png);
+    background-blend-mode: darken;
+    background-size: cover;
+
+
+}
+.img2:hover{
+    background: rgba(0, 0, 0, 0.5)url(images/1.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.paragraph {
+    color: white;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+
+.Discover {
+    color: white;
+    margin-left: 50px;
+    background-color: #1352aa;
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.Stayunique {
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.Stayunique55 {
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.Stayunique3 {
+    margin-top: 50px;
+    margin-left: 180px;
+
+}
+
+.Stayuniqueimges {
+    border-radius: 5px;
+    float: left;
+    display: flex;
+
+}
+
+.Stayuniqueimge {
+    height: 260px;
+    width: 260px;
+    padding: 17px;
+    overflow: hidden;
+}
+
+.contant {
+    margin-left: 30px;
+}
+
+.ExploreEgypt {
+    margin-top: 50px;
+    margin-left: 190px;
+
+}
+
+.ExploreEgyptimg {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.bed {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    
+}
+
+.iconcountry {
+    width: 40px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.reviews {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    background-color: #1352aa;
+    color: white;
+    border-radius: 3px;
+}
+
+.span4 {
+    background-color: #1352aa;
+    color: white;
+    height: 150px;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.Travel {
+    background-color: #1352aa;
+    color: white;
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+.Stayunique2 {
+    margin-left: 180px;
+}
+
+.Travel2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #1352aa;
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.Travel3 {
+    background-color: rgb(198, 191, 191);
+    color: black;
+    height: 100px;
+    width: 18%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.Hurghada {
+    width: 550px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/14.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+.Hurghada:hover{
+    background: rgba(25, 22, 22, 0.546)url(images/14.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+
+}
+.Paris {
+    width: 550px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/5.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+.Paris:hover{
+    background: rgba(25, 22, 22, 0.546)url(images/5.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.townhouses3 {
+    width: 550px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/14.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.townhouses3:hover {
+    background: rgba(25, 22, 22, 0.546)url(images/14.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.townhouses4 {
+    width: 550px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/5.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+.townhouses4:hover {
+    background: rgba(25, 22, 22, 0.546)url(images/5.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Beirut {
+    margin-top:30px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/15.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 15x;
+}
+.Beirut:hover{
+    background: rgba(25, 22, 22, 0.546)url(images/15.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+.country{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.Cairo{
+padding-top: 40px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/6.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top:30px
+}
+.Cairo:hover{
+    background: rgba(25, 22, 22, 0.546)url(images/6.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Dubai {
+    margin-top:30px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(images/31.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+.Dubai:hover{
+    background: rgba(25, 22, 22, 0.546)url(images/31.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.div22 {
+    margin-bottom:30px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.4)url(15.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    margin-left: 15x;
+}
+
+.PhotoString {
+    margin-bottom:30px;
+    width: 350px;
+    height: 250px;
+    background:rgba(25, 22, 22, 0.4)url(images/15.webp); 
+    background-size: cover;
+    background-blend-mode: darken;
+    float: left;
+    padding: 10px;
+    margin-left: 15x;   
+}
+.PhotoString:hover{
+    background:rgba(0, 0, 0, 0.5)url(images/15.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+.shadow{
+    width: 360px;
+    height: 100px;
+    padding-right: 20px;
+    
+    
+}
+.country{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.townhouses {
+    margin-bottom:30px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.3)url(images/6.webp);
+    background-size: cover;
+    background-blend-mode: darken;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.townhouses:hover{
+    background:rgba(0, 0, 0, 0.5)url(images/6.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.townhouses2 {
+    margin-bottom:30px;
+    width: 350px;
+    height: 250px;
+    background: rgba(25, 22, 22, 0.3)url(images/31.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+.townhouses2:hover{
+    background:rgba(0, 0, 0, 0.5)url(images/31.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.unorderlist2{
+    direction: none;
+    list-style-type: none;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+
+}
+.Regions{
+    border-radius: 20px;
+    background-color: #e3eefe;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.unorderlistitem1{
+    display: inline;
+    margin-right: 70px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.unorderlist3{
+    direction: none;
+    list-style-type: none;
+    color: black;
+    display: inline;
+   float: left;
+   margin-right: 40px;
+   margin-left: 30px;
+
+
+}
+.Stayunique2{
+    margin-left: 180px;
+}
+.Stayunique6{
+    background-color: #13325d;
+    height: 300px;
+    color: white;
+    padding: 50px;
+   /* padding-left: 600px; */
+   text-align: center;
+    
+}
+
+.footer{
+    width: 230px;
+    height: 40px;
+    color: grey;
+    border-color: white;
+
+}
+.footer1{
+    width: 100px;
+    height: 40px;
+    
+    color: grey;
+    background-color: #1352aa;
+    color: white;
+    border-color: white;
+}
